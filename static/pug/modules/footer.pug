@@ -67,9 +67,9 @@ footer.footer
             h4.footer-nav__title Меню
             ul.footer-nav__sub-list
               li.footer-nav__sub-item
-                a.footer-nav__link(href="index.html") Главная
+                a.footer-nav__link(href=pageClass === "index-page" ? false : "index.html") Главная
               li.footer-nav__sub-item
-                a.footer-nav__link(href="catalog.html") Каталог книг
+                a.footer-nav__link(href=pageClass === "catalog-page" ? false : "catalog.html") Каталог книг
               li.footer-nav__sub-item
                 a.footer-nav__link(href="#") Оплата и доставка
               li.footer-nav__sub-item

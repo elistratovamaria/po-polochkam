@@ -6,7 +6,7 @@ ul.books
         .books__box
           p.books__author= book.author
           h3.books__name= book.name
-          p.books__description= book.description
+          p.books__description!= book.description
           p.books__stars
             .
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
